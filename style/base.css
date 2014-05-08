@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+}
+#header {
+	width: 940px;
+	height: 90px;
+	margin: 0 auto;
+	border: 1px solid gray;
+}
+#nav {
+	width: 100%;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+#box {
+	width: 940px;
+	margin: 0 auto;
+}
+#box #left {
+	width: 196px;
+	height: 500px;
+	float: left;
+	list-style: none;
+	font-size: 20px;
+	margin: 0;
+	padding-left:20px;
+	border: 1px solid gray;
+}
+#box #right {
+	width: 730px;
+	margin-left: 10px;
+	float: left;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+}
+#footer {
+	clear: both;
+	width: 940px;
+	height: 90px;
+	margin: 0 auto;
+	border: 1px solid gray;
+}
+.menu {
+	margin: 0 auto;
+	padding-top:5px;
+	width: 940px;
+	line-height: 35px;
+}
+ul {
+	list-style: none;
+}
+.menu ul {
+	margin: 0px;
+	padding-left: 0px;
+}
+.menu li {
+	float: left; /* 向左漂移，将竖排变为横排 */
+	list-style: none;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.tbl tr td{
+	padding:0px;
+}
+.tbl tr td input{
+	margin:0px;
+}
+.tbl tr td select{
+	margin:0px;
+}
+
+.login-div{
+	margin-top:20px;
+	width:400px;
+	height:200px;
+}
+
+.msg{
+	display:none;
+}
+
+.breadcrumbs-cust{
+	color:red;
+}
+.error{
+	display:none;
+}
+.pricing-table .img{
+	text-align:center;
+}
+.pricing-table .img img{
+	border:none;
+	width:100px;
+	height:80px;
+}
